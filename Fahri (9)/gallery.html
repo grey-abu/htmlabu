@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Slider in HTML CSS and JavaScript | CodingNepal</title>>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="gallery.css" />
+    <script src="g.js" defer></script>
+    <link rel="stylesheet" href="/css/fakeLoader.css">
+  </head>
+  <body>
+    <header>
+        <h2 class="logo">Catering Mama Daffa</h2>
+        <nav class="navigation">
+        <a href="figma1.html">Home</a>
+            <a href="figma2.html">Menu</a>
+            <a href="index.html">Contact</a>
+            <a href="#">Gallery</a>
+            </nav>
+    </header>
+    <div class="container">
+      <div class="slider-wrapper">
+        <button id="prev-slide" class="slide-button material-symbols-rounded">
+          chevron_left
+        </button>
+        <ul class="image-list">
+          <img class="image-item" src="tumpeng.jpg" alt="img-1" />
+          <img class="image-item" src="nasi-megono-khas-pekalongan.jpg" alt="img-2" />
+          <img class="image-item" src="berkatt.jpg" alt="img-3" />
+          <img class="image-item" src="food-10-min.jpg" alt="img-4" />
+          <img class="image-item" src="food-4-min.jpg" alt="img-5" />
+          <img class="image-item" src="649e77cbb6956-kue-klepon_1265_711.webp" alt="img-6" />
+          <img class="image-item" src="Melly_Kue_BSD_20180724_180651_scaled.jpg" alt="img-7" />
+          <img class="image-item" src="gepreeq.avif" alt="img-8" />
+          <img class="image-item" src="banner-nagasa-1717140253832.jpg" alt="img-9" />
+          <img class="image-item" src="yellowrice.jpeg" alt="img-10" />
+        </ul>
+        <button id="next-slide" class="slide-button material-symbols-rounded">
+          chevron_right
+        </button>
+      </div>
+      <div class="slider-scrollbar">
+        <div class="scrollbar-track">
+          <div class="scrollbar-thumb"></div>
+        </div>
+      </div>
+    </div>
+    <div class="fakeLoader"></div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="/js/fakeLoader.js"></script>
+
+        <script>
+            $(document).ready(function () {
+                $.fakeLoader({
+                    bgColor: '#004807',
+                    spinner:"spinner3"
+                });
+            });
+        </script>
+  </body>
+</html>

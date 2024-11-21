@@ -1,0 +1,87 @@
+.menu {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .menu .overlap-group-wrapper {
+    background-color: #ffffff;
+    width: 1280px;
+    height: 832px;
+  }
+  
+  .menu .overlap-group {
+    position: relative;
+    height: 832px;
+    background-image: url(./img/group-3.png);
+    background-size: 100% 100%;
+  }
+  
+  .menu .group {
+    position: absolute;
+    width: 1280px;
+    height: 759px;
+    top: 0;
+    left: 0;
+  }
+  
+  .menu .image {
+    width: 162px;
+    height: 121px;
+    top: 419px;
+    position: absolute;
+    left: 463px;
+    object-fit: cover;
+  }
+  
+  .menu .mask-group {
+    position: absolute;
+    width: 157px;
+    height: 124px;
+    top: 421px;
+    left: 624px;
+  }
+  
+  .menu .img {
+    width: 317px;
+    height: 94px;
+    top: 545px;
+    position: absolute;
+    left: 463px;
+    object-fit: cover;
+  }
+  
+  .menu .rectangle {
+    position: absolute;
+    width: 262px;
+    height: 41px;
+    top: 669px;
+    left: 490px;
+  }
+  
+  .menu .jajanan {
+    position: absolute;
+    width: 137px;
+    height: 36px;
+    top: 672px;
+    left: 553px;
+  }
+  
+  .menu .rectangle-2 {
+    position: absolute;
+    width: 308px;
+    height: 45px;
+    top: 613px;
+    left: 954px;
+  }
+  
+  .menu .pesan-sekarang {
+    position: absolute;
+    width: 283px;
+    height: 36px;
+    top: 619px;
+    left: 967px;
+  }
+  

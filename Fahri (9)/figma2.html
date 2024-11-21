@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" a href="figma2.css">
+    <link rel="stylesheet" href="/css/fakeLoader.css">
+</head>
+<body>
+    <header>
+      <h2 class="logo">Catering Mama Daffa</h2>
+      <nav class="navigation">
+        <a href="figma1.html">Home</a>
+        <a href="#">Menu</a>
+        <a href="index.html">Contact</a>
+        <a href="gallery.html">Gallery</a>
+      </nav>
+      </header>
+      <div class="fakeLoader"></div>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+          <script src="/js/fakeLoader.js"></script>
+  
+          <script>
+              $(document).ready(function () {
+                  $.fakeLoader({
+                      bgColor: '#004807',
+                      spinner:"spinner4"
+                  });
+              });
+          </script>
+    <div class="wrap">
+        <div class="box">
+          <div class="box-top">
+            <img class="box-image" src="tumpeng.jpg">
+            <div class="title-flex">
+              <h3 class="box-title">Tumpeng</h3>
+            </div>
+            <p class="description">Tumpeng buatan mama daffa meemliki isi/lawuk yang bergam.
+                seperti tempe oreg, ayam, mie dan perkedel. isi/lawuk dari tumpeng bisa di custom sesuai keinginan pelanggan
+            </p>
+          </div>
+          <a href="index.html" class="button">pesan</a>
+        </div>
+        <div class="box">
+          <div class="box-top">
+            <img class="box-image" src="berkatt.jpg">
+            <div class="title-flex">
+              <h3 class="box-title">Nasi berkat</h3>
+            </div>
+            <p class="description">Nasi berkat buatan mama daffa, bisa di custom sesuai keinginan pelanggan</p>
+          </div>
+          <a href="index.html" class="button">pesan</a>
+        </div>
+        <div class="box">
+          <div class="box-top">
+            <img class="box-image" src="Melly_Kue_BSD_20180724_180651_scaled.jpg">
+            <div class="title-flex">
+              <h3 class="box-title">Aneka jajanan</h3>
+            </div>
+            <p class="description">Aneka jajanan dan kue-kue tradisional seperti klepon,risol,lapis.onde-onde dll</p>
+          </div>
+          <a href="index.html" class="button">pesan</a>
+        </div>
+        <div class="box">
+          <div class="box-top">
+            <img class="box-image" src="nasi-megono-khas-pekalongan.jpg">
+            <div class="title-flex">
+              <h3 class="box-title">Nasi megono</h3>
+            </div>
+            <p class="description">Catering mama daffa menyediakan makanan khas pekalongan loh..., yaitu nasi megono, bisa di custom sesuai keinginan pelanggan. </p>
+          </div>
+          <a href="index.html" class="button">pesan</a>
+        </div>
+      </div>
+</body>
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<!-- Coding By CodingNepal - codingnepalweb.com -->
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Login & Sign Up Form</title>
+  <!---Custom CSS File--->
+  <link rel="stylesheet" href="login.css">
+  <link rel="stylesheet" href="/css/fakeLoader.css">
+</head>
+<body>
+  <div class="container">
+    <input type="checkbox" id="check">
+    <div class="login form">
+      <header>Login</header>
+      <div class="fakeLoader"></div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="/js/fakeLoader.js"></script>
+
+        <script>
+            $(document).ready(function () {
+                $.fakeLoader({
+                    bgColor: '#004807',
+                    spinner:"spinner5"
+                });
+            });
+        </script>
+      <form action=">
+        <input type="text" placeholder="Enter your email" required>
+        <input type="password" required placeholder="Enter your password">
+        <input type="submit" class="submit" value="Login">
+      </form>
+      <div class="signup">
+        <span class="signup">Don't have an account?
+         <label for="check">Signup</label>
+        </span>
+      </div>
+    </div>
+    <div class="registration form">
+      <header>Sign up</header>
+      <form action="figmacontact.html">
+        <input type="text" required placeholder="Enter your email"><ion-icon name="mail"></ion-icon>
+        <input type="password" required placeholder="Create a password">
+        <input type="password" required placeholder="Confirm your password">
+        <input type="submit" class="submit" value="Sign up">
+      </form>
+      <div class="sign up">
+        <span class="signup">Already have an account?
+         <label for="check">Login</label>
+        </span>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
